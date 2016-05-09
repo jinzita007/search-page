@@ -26,7 +26,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
   <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
-
+  
   <!-- Tile icon for Win8 (144x144 + tile color) -->
   <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
   <meta name="msapplication-TileColor" content="#0e90d2">
@@ -35,12 +35,41 @@
   <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
-<p>
-  Hello Amaze UI.
-</p>
+<!--主体背景大图片-->
+<div id="header">
+ <div id="head">
+   <div id="head_wrapper">
+   <!--搜索框-->
+   <div class="search">
+     <div class="search_01">
+       <!--logo-->
+       <div class="search_lg">
+         <img src="assets/img/logo.png" alt="">
+       </div>
+       <!--搜索框的样式-->
+       <div class="search_input">
+       <div class="am-input-group">
+       <input type="text" class="am-form-field" placeholder="搜索">
+       <span class="am-input-group-label label_02"><i class="am-icon-search am-icon-md am-icon-search_02" ></i></span>
+      </div>
+      </div>
 
-<!--在这里编写你的代码-->
+     </div>
+   </div>
+  </div>
+   <!--搜索框下面的四个图片--><div class="am-g am-g-fixed am_03">
+   <ul class="am-avg-sm-4">
+  <li><img class="am-thumbnail" src="assets/img/s_01.png" /></li>
+  <li><img class="am-thumbnail" src="assets/img/s_02.png" /></li>
+  <li><img class="am-thumbnail" src="assets/img/s_03.png" /></li>
+  <li><img class="am-thumbnail" src="assets/img/s_04.png" /></li>
+</ul>
 
+</div>
+  
+
+ </div>
+</div>
 <!--[if (gte IE 9)|!(IE)]><!-->
 <script src="assets/js/jquery.min.js"></script>
 <!--<![endif]-->
