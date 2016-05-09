@@ -148,3 +148,14 @@ body,#header{
 .am-thumbnail_d{
   z-index: 1;
 }*/
+.footer{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+.footer ul.footer_ul{
+    list-style: none;
+}
+.footer ul.footer_ul li{
+    float: left;
+}
